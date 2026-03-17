@@ -1,0 +1,147 @@
+* {
+  margin:0;
+  padding:0;
+}
+    header{
+      display: flex;
+      background-color: rgb(254, 254, 254);
+      height:80px;
+      border-bottom:5px solid rgb(232, 230, 230);
+    
+    }
+    .logo{
+      padding:20px;
+    }
+  .navbar {
+    display:flex; 
+    min-width:500px;
+    
+   justify-content:space-evenly;
+  
+  }
+  .navbar a {
+font-size:14px;
+letter-spacing: .3px;
+color:black;
+font-weight:700;
+text-transform: uppercase;
+text-decoration: none;
+padding:30px 0;
+font-family:sans-serif;
+  }
+  .navbar a:hover{
+    border-bottom:5px solid rgb(251, 52, 118);
+    color:rgb(251, 52, 118);
+  
+  }
+  #new{
+    color:rgb(251, 52, 118);
+    font-size:10px;
+    
+  }
+  .searchbar{
+    display:flex;
+    align-items:center;
+  }
+  .search{
+    height:40px;
+    min-width:250px;
+    background-color:rgb(212, 211, 211);
+    border:0px solid white;
+  flex-grow: 1;
+  
+  }
+.icon{
+  box-sizing: content-box;
+  height:20px;
+  background-color:rgb(212, 211, 211);
+  padding:10px;
+}
+.actions{
+  display:flex;
+  min-width:200px;
+ justify-content:space-around;
+  margin:20px;
+}
+.containers{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  font-size: small;
+  font-family:sans-serif;
+
+}
+.banner{
+  margin:20px 0px;
+}
+.image{
+  
+  width:100%;
+}
+.heading{
+ 
+font-size:1.8em;
+ letter-spacing: .15em;
+color:black;
+font-weight:700;
+text-transform: uppercase;
+max-height:5em;
+padding:50px 0 10px 30px;
+font-family:sans-serif;
+}
+.items{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.image1{
+width:200px;
+  
+}
+.heading1{
+  font-size:1.8em;
+ letter-spacing: .15em;
+color:black;
+font-weight:700;
+text-transform: uppercase;
+max-height:5em;
+padding:50px 0 10px 30px;
+font-family:sans-serif;
+
+}
+.categorys{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+}
+.category{
+  width:200px;
+}
+.footers{
+  padding:30px 0 40px 0;
+  background-color: rgb(233, 232, 232);
+  display:flex;
+  justify-content: space-evenly;
+}
+.footer{
+  
+  display:flex;
+  flex-direction: column;
+  
+}
+.footer a{
+  color: rgb(118, 117, 117);
+  font-size:15px;
+  text-decoration: none;
+  padding-bottom:5px;
+  font-family:sans-serif ;
+}
+.footer  h3{
+  font-family:sans-serif;
+  font-size:14px;
+  margin-bottom:15px;
+}
+.copyright{
+  color: rgb(118, 117, 117);
+  align-items: end;
+}
